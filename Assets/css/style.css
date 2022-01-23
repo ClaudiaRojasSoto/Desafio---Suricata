@@ -1,0 +1,65 @@
+body *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: size 2px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    height: 75px;
+    font-weight: 400;
+    font-size: 22px;
+}
+@media (max-width: 575.98px) {
+    .tarjetas{
+        display: none;
+    }    
+}
+nav, footer{
+    background: #E83E8C;
+}
+.logonav{
+    margin-left: 119px;
+}
+h1{
+    color: #707070;
+    text-align: center;
+}
+h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.list-group-item, .card-link{
+    font-size: 11px;
+    font-weight: 400;
+}
+.tarjetas{
+    background: #17A2B8;
+    color: #FFFFFF;
+    width: 100%;
+}
+.tarjetas i{
+    margin: 0px 9px;
+}
+h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+#tpagos{
+    margin-left: 310px;
+}
+footer{
+    height: 184px;
+    text-align: center;
+}
+.lfooter{
+    width: 53px;
+    height: 100px;
+    margin-top: 30px;
+}
